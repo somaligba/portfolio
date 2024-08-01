@@ -4,13 +4,13 @@
 
 ## 👤 About Me
 
-Hello! I'm **Salvation Omaligba**, a Data Analyst with over three years of experience in transforming complex data into actionable insights. I specialize in using industry-standard tools such as Power BI, Tableau, Alteryx, Excel, Python, and SQL to conduct market research and develop data-driven reports and visualizations. With a focus on delivering high-quality work both independently and within a team, I am passionate about helping organizations make informed decisions based on accurate data analysis.
+Hello! I'm **Salvation Omaligba**, a Data Analyst with over three years of experience in transforming complex data into actionable insights. I use industry-standard tools such as Power BI, Tableau, Alteryx, Excel, Python, and SQL to conduct market research and develop data-driven reports and visualizations. With a focus on delivering high-quality work both independently and within a team, I am passionate about helping organizations make informed decisions based on accurate data analysis.
 
 - 📍 **Location:** Rueil-Malmaison, France
 - 📧 **Email:** [omaligba@gmail.com](mailto:omaligba@gmail.com)
 - 🌐 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/salvation-omaligba-a18543134)
 
-![Profile Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+My+GitLab+Profile)
+![Profile Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+My+Github+Profile)
 
 ---
 
