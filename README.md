@@ -10,7 +10,7 @@ Hello! I'm **Salvation Omaligba**, a Data Analyst with over three years of exper
 - 📧 **Email:** [omaligba@gmail.com](mailto:omaligba@gmail.com)
 - 🌐 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/salvation-omaligba-a18543134)
 
-![Profile Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+My+GitLab+Profile)
+![Profile Banner](https://via.placeholder.com/1salvation.jpeg?text=Welcome+to+My+GitLab+Profile)
 
 ---
 
