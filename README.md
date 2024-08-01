@@ -38,8 +38,10 @@ Hello! I'm **Salvation Omaligba**, a Data Analyst with over three years of exper
 
 Here are some of the notable projects I've worked on, showcasing my skills and contributions:
 
-### [Energy Market Analysis with Kayrros](https://gitlab.com/yourusername/energy-market-analysis)
+### [Shopper Marketing Spend Analysis and Forecast Evaluation with Alteryx analytics](https://gitlab.com/databanker/shopper-marketing-spend-analysis-and-forecast-evaluation-with-alteryx-analytics)
 
+
+### [Real-time Insights from Social Media Data](https://gitlab.com/databanker/real-time-insights-from-social-media-data)
 
 
 
