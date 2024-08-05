@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - iPortfolio Bootstrap Template</title>
+
+  <title>Salvation Omaligba</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -12,818 +13,572 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Alex Smith</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Alex Smith</h2>
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="profile">
+        <img src="assets/img/profile.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Salvation Omaligba</a></h1>
+        <div class="social-links mt-3 text-center">
+          
+          <a href="mailto:omaligba@gmail.com" target="_blank" class="gmail"><i class="bx bxl-gmail"></i></a>
+          <a href="https://github.com/somaligba?tab=repositories" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/salvation-omaligba-a18543134/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
       </div>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <li><a href="#certifications" class="nav-link scrollto"><i class="bx bx-certification"></i> <span>Certifications</span></a></li>
+          <li><a href="#awards" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Awards and Organizations</span></a></li>
+         
+          
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-    </section><!-- /Hero Section -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Salvation Omaligba</h1>
+      <h2>I am a Data Analyst</h2>
+      <p >
+    
+        <span style="text-decoration: none;" class="typed" data-typed-items="Transforming complex data into actionable insights, From energy sectors to financial services, Specialized in uncovering trends, Visualizing data and driving smarter business decisions, Let's dive into data-driven success together!"></span></p>
+    
+    </div>
+  </section><!-- End Hero -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+  <main id="main">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I'm Salvation Omaligba, a data detective with drive for uncovering the hidden stories within complex datasets. With over 3 years of experience, I've turned raw data into actionable insights that power business decisions and illuminate market trends. My toolkit is as diverse as my expertise, ranging from Power BI and Tableau to Python and SQL. As a <strong>Data Management Professional (CDMP)</strong> and <strong>Project Management Professional Associate (CAPM)</strong>, I'm not just about crunching numbers—I'm about crafting narratives that drives impact.</p>
+          
+          
+        </div>
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 content">
-            <h2>UI/UX Designer &amp; Web Developer.</h2>
-            <p class="fst-italic py-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Multidisciplinary Data Analyst: Energy, Banking, and Business Intelligence</h3>
+            <p >
+              My academic journey began with a <strong>Bachelor degree in Petroleum Engineering from the Federal University of Petroleum Resources, Nigeria. </strong>I joined Sterling Bank Plc as Service Manager where I worked on effective data related projects. The blend of education and experience has been pivotal in shaping my professional path.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/salvation-omaligba-a18543134/" target="_blank">Salvation Omaligba</a>
+                  </li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Rueil-Malmaison, France</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>github:</strong> <span><a href="https://github.com/somaligba" target="_blank">somaligba.github.io</a></span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Availability:</strong> <span>October 2024</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            <p>
+              Driven by a passion for the energy sector and data management, I took a significant step in 2022 to deepen my knowledge and align it with industry needs, I took up a new challenge to advance my skills in the data field with a <strong>Specialized Master's in Petroleum Data Management from IFP School, France.</strong> My time at IFP School provided invaluable exposure to the intricacies of Data Analysis, Data Management and Business Intelligence. I learned under the guidance of industry experts.</strong> This experience enriched my understanding of data's role in energy sectors, equipping me with the skills which led me to my career as Energy Analyst at Kayrros, Paris.
             </p>
           </div>
         </div>
 
       </div>
+    </section><!-- End About Section -->
 
-    </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
+  <section id="testimonials" class="testimonials section-bg">
+    <div class="container">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="section-title">
         <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
       </div>
 
-    </section><!-- /Skills Section -->
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/python-ar21.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+            </div>
 
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/postgresql-ar21.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up">
+            
+              <img
+              src="assets/icons/pbi.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              />
+
+              
+              
+            </div>
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+              <img
+              src="assets/icons/tbl.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+           
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+              <img
+              src="assets/icons/awss3.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+           
+            </div>
+
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+              <img
+              src="assets/icons/gcp.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/alteryx.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/git-scm-ar21.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+          </div><!-- End testimonial item -->
+
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/ArcGIS_logo.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/qgis-ar21.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/postman.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <img
+              src="assets/icons/fme.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+
+            </div>
+          </div><!-- End testimonial item -->
+
+          
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>  
+
+    </div>
+  </section><!-- End Testimonials Section -->
+  <div class="swiper-pagination"></div>
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
       <div class="container">
 
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>I have a strong theoretical foundation with hands-on expertise in data interpretation, enabling me to turn complex data sets into strategic solutions.</p>
+        </div>
+
         <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+          <div class="col-lg-6" data-aos="fade-up">
+            
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
-
+              <h4>Specialized Master's in Petroleum Data Management</h4>
+              <h5>September 2022 - October 2023</h5>
+              <p><em>IFP-School, Rueil-Malmaison, France</em></p>
+              <p>Information management fundamentals | Data life cycle and data quality | Data model and reference data | Storage and query, SQL, NoSQL | Data security, Data standards and data sharing | Cloud Technology | Energy & Environment data and techniques | Geographic Information System (GIS), web GIS | Spatial databases and ETL | Remote sensing | Data acquisition, Surveying, Photogrammetry, Lidar | Business Intelligence, Power BI, Python | PETREL data management | Machine learning, Deep learning</p>
+            </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
-
+              <h4>Bachelor's in Petroleum Engineering</h4>
+              <h5>November 2012 - February 2018</h5>
+              <p><em>Federal University of Petroleum Resources, Effurun, Nigeria</em></p>
+              <p>Reservoir engineering | Drilling engineering | Petroleum refining  | Well logging and interpretation of geological data | Petroleum economics | Petroleum project management | Field development planning | Petroleum law and policy | GIS (Geographic Information System) and reservoir simulation | Proficiency in using industry-standard software like PROSPER and MBAL.</p>
+            </div>
+            
+            
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Energy Analyst</h4>
+              <h5>March 2023 - April 2024</h5>
+              <p><em>The Operations Tracker Project aims to leverage advanced data analytics and machine learning techniques to generate near real-time actionable insights relating to oil and gas demand and supply for industry stakeholder.</em></p>
+              <p><em>Kayrros, Paris, France </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                  <li class="arrow">Data Quality Assurance: Successfully collaborated with Senior Energy Analysts to guarantee the quality and timely delivery of datasets, leading to reduced data processing time and client satisfaction.</li>
+                  <li class="arrow">Data Preparation Expertise: Gained expertise in all technical steps of the data preparation process, identified underlying issues, and implemented effective solutions.</li>
+                  <li class="arrow">Dataset Improvement: Implemented processes to continuously improve the quality of datasets by investigating recent industry trends and aligning them with our data outputs.</li>
+                  <li class="arrow">Team Collaboration: Worked closely with Data Engineers and Data Scientists to develop unique intelligence for the US energy market.</li>
               </ul>
-            </div><!-- Edn Resume Item -->
-
+              <p><em>#DataManagement, #DataAnalysis, #DataVisualization, #AgileMethodology, #ProjectManagement #CustomerSatisfaction #InternaltionalEnvironment </em></p>
+            </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Service Manager</h4>
+              <h5>March 2020 - August 2022</h5>
+              <p><em>Operations and service delivery in the Retail and Consumer Banking division. with strong focus on optimizing customer service operations, supervising a team of customer service agents, and ensuring the effective functioning of automated teller machines (ATMs).</em></p>
+              <p><em>Sterling Bank Plc, Lagos, Nigeria </em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li class="arrow">Successfully led a customer service team to deliver exceptional service, leveraging the T24 core banking application, Microsoft Power BI, and Microsoft Automate. Achieved significant reductions in response times and enhanced customer satisfaction by optimizing operations and ensuring strict adherence to KPIs.
+                  </li>
+                  <li class="arrow">Managed and improved the efficiency and reliability of multiple ATM operations, resulting in increased uptime and performance. Utilized data analysis and reporting tools, including Power BI, to generate actionable insights, identify trends, and drive continuous service improvement. </li>
+                  <li class="arrow">Provided strong leadership and developed a collaborative team environment, conducting training sessions to elevate team skills and knowledge. Implemented effective process improvements, consistently exceeding customer expectations and enhancing overall service delivery.</li>  
               </ul>
-            </div><!-- Edn Resume Item -->
+              <p><em>#CustomerServiceExcellence #TeamLeadership #DataDrivenDecisionMaking #ATMManagement #ProcessImprovement #CustomerSatisfaction #OperationalEfficiency #DataAnalytics #ServiceOptimization #KPIAchievement </em></p>
+            </div>
 
+
+            <div class="btn-con">
+              <a href="assets/files/Salvation Omaligba CV - en.pdf" target="_blank" class="main-btn">
+                  <span class="btn-text">Download CV</span>
+                  <span class="btn-icon"><i class="fas fa-download"></i></span>
+              </a>
           </div>
-
+            
+          </div>
         </div>
 
       </div>
+    </section><!-- End Resume Section -->
 
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
+    <!-- ======= Portfolio Section ======= -->
+    <section id="projects" class="projects section-bg">
       <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>My portfolio encompass a diverse range of projects in data analytics and data management.</p>
+        </div>
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
+       
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row projects-container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/img2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/img2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Geospatial Data Analysis and Visualization with PostGIS and QGIS"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/somaligba/Geospatial-Data-Analysis-and-Visualization-with-PostGIS-and-QGIS" title="More Details"><i class="bx bx-link"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Ad_Agencies_Marketing_Workflow.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Ad_Agencies_Marketing_Workflow.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Shopper-Marketing-Spend-Analysis-and-Forecast-Evaluation"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/somaligba/Shopper-Marketing-Spend-Analysis-and-Forecast-Evaluation" title="More Details"><i class="bx bx-link"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+          </div>
+             
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sales.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sales.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sales Analytics Dashboard with Power BI"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/somaligba/Sales-Analytics-Dashboard" title="More Details"><i class="bx bx-link"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
+    </section><!-- End Portfolio Section -->
 
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
+    <!-- ======= Certification Section ======= -->
+    <section id="certifications" class="certifications">
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="section-title">
+          <h2>Certifications</h2>
+        </div>
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><img src="assets/icons/CAPM.png" class="img-fluid" alt=""></i></div>
+            <h4 class="title"><a href="https://www.credly.com/badges/bd1432a1-b527-4a85-9d40-8bfe01514e59" target="_blank">Certified Associate in Project Management (CAPM)</a></h4>
+            <p class="description">    Agile Principles,
+              Business Analysis Framework,
+              Communications Management,
+              Cost Management,
+              Integration Management,
+              Predictive Methodologies,
+              Project Management,
+             etc...<a href="https://www.credly.com/badges/bd1432a1-b527-4a85-9d40-8bfe01514e59" target="_blank">show credential</a></p>
           </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div><!-- End Service Item -->
-
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><img src="assets/icons/dama.png" class="img-fluid" alt=""></i></div>
+            <h4 class="title"><a href="https://rr.badgr.com/public/assertions/cbP0eEObTaOm31ZEQtY7RQ" target="_blank">DAMA CDMP Certiﬁcation - Master</a></h4>
+            <p class="description">Data Management process, data quality, data governance, Master
+              and Reference data, data integration and Interoperability, data warehousing etc...<a href="https://rr.badgr.com/public/assertions/cbP0eEObTaOm31ZEQtY7RQ" target="_blank">show credential</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><img src="assets/icons/dama.png" class="img-fluid" alt=""></i></div>
+            <h4 class="title"><a href="https://api.badgr.io/public/assertions/exGUmB2kQFGGtEilQR9gAQ" target="_blank">DAMA CDMP Certiﬁcation - Practitioner</a></h4>
+            <p class="description">Data Management process, data quality, data governance, Master
+              and Reference data, data integration and Interoperability, data warehousing etc...<a href="https://api.badgr.io/public/assertions/exGUmB2kQFGGtEilQR9gAQ" target="_blank">show credential</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img src="assets/icons/dama.png" class="img-fluid" alt=""></i></div>
+            <h4 class="title"><a href="https://api.badgr.io/public/assertions/YrvHJ_yQRmO6QlnMZkgjOg" target="_blank">DAMA CDMP Certiﬁcation - Associate</a></h4>
+            <p class="description">Data Management process, data quality, data governance, Master
+              and Reference data, data integration and Interoperability, data warehousing etc...<a href="https://api.badgr.io/public/assertions/YrvHJ_yQRmO6QlnMZkgjOg" target="_blank">show credential</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><img src="assets/icons/dcamp.png" class="img-fluid" alt=""></i></div>
+            <h4 class="title"><a href="https://www.datacamp.com/statement-of-accomplishment/track/b16358339ac7f8f09483fc0f68442da8d650a061?raw=1" target="_blank">Data Analyst Track</a></h4>
+            <p class="description">As part of the Data Analyst track on DataCamp, I acquired proficiency in essential analytical tools and techniques. 
+              This certification equipped me with skills in data manipulation, statistical analysis, and data visualization.
+              <a href="https://www.datacamp.com/statement-of-accomplishment/track/b16358339ac7f8f09483fc0f68442da8d650a061?raw=1" target="_blank">show credential</a></p>
+          </div>
         </div>
 
       </div>
+    </section><!-- End Certification Section -->
 
-    </section><!-- /Services Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <!-- ======= Awards Section ======= -->
+<section id="awards" class="awards section-bg">
+  <div class="container">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 1
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+    <div class="section-title">
+      <h2>Awards</h2>
+      <p>My journey has been marked by prestigious awards and honors. These accolades highlight my commitment to fostering professional growth, and contributing to meaningful projects.</p>
     </div>
 
-  </footer>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><img src="assets/img/awards/ptdf.png" class="img-fluid" ></div>
+        <h4 class="title"><a href="https://ptdf.gov.ng/award-of-2020-2021-united-kingdom-and-germany-france-china-malaysia-gfcm-strategic-partnership-scholarship-msc-phd-updated/" target="_blank">The Petroleum Technology Development Fund (PTDF) Oversea Masters Scholarship</a></h4>
+        <p class="description">Recipient of the prestigious Petroleum Technology Development Fund (PTDF) Overseas Masters Scholarship. Awarded for academic excellence and potential in the field of technology. Supported my specialized studies and experience abroad.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><img src="assets/img/awards/agbami.png" class="img-fluid" ></div>
+        <h4 class="title"><a href="https://drive.google.com/file/d/1_geBeubXsEhmkx9GF8hI_V3lLxwT8Rco/view?usp=sharing" target="_blank">Agbami Medical Engineering Professional Scholarship (AMEPS)</a></h4>
+        <p class="description">Recipient of the esteemed Agbami Medical Engineering Professional Scholarship (AMEPS). This scholarship recognizes outstanding academic performance and potential in the field of engineering. It provides comprehensive support for undergraduate studies, fostering future leaders in the engineering sector.</p>
+      </div>
+      <!-- Add more award items as needed -->
+    </div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </div>
+</section><!-- End Awards Section -->
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+
+  </div>
+</section><!-- End Awards Section -->
+
+
+ <!-- ======= Organizations Section ======= -->
+ <section id="testimonials" class="testimonials section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Organizations</h2>
+      <p>Joining a professional organization offers valuable networking opportunities, access to career development resources, and industry insights. It helps me stay updated on trends, advance my skills, and influence my field. Engaging with peers and shape industry standards for career growth and success. I actively engage in <a href="https://www.linkedin.com/company/spe-france/posts/#" target="_blank">workshops and conferences</a> aimed at networking and professional development.</p>
+    </div>
+
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              
+              <a href="https://www.nse.org.ng/" target="_blank">NSE</a>  is dedicated to advancing the engineering profession in Nigeria. supporting engineers through professional development, uphold standards and ethics, advocate for beneficial policies, and provide networking opportunities. fostering excellence and drive national progress in engineering.
+              
+            </p>
+            <img src="assets/img/associations/NSE.png" class="testimonial-img" alt="">
+            <h3>Nigerian Society of Engineers</h3>
+            <h4>Graduate Member</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              
+             <a href="https://www.spe.org/en/" target="_blank">SPE</a>  is a global organization dedicated to advancing the knowledge and practice of petroleum engineering. SPE supports professionals in the oil and gas industry through technical resources, professional development, and networking opportunities. The society fosters innovation, best practices, and collaboration among engineers involved in the exploration and production of energy resources.
+              
+            </p>
+            <img src="assets/img/associations/spe.png" class="testimonial-img" alt="">
+            <h3>Society of Petrolem Engineers</h3>
+            <h4>Member, SPE France Chapter</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              
+             <a href="https://www.cibng.org//" target="_blank">CIBN</a> is a leading professional organization for bankers in Nigeria. It focuses on advancing banking standards, providing professional education and certification, and promoting ethical practices within the industry. CIBN supports the development of banking professionals through training, resources, and networking opportunities.
+              
+            </p>
+            <img src="assets/img/associations/cibn.png" class="testimonial-img" alt="">
+            <h3>The Chattered Institute of Bankers of Nigeria</h3>
+            <h4>Member</h4>
+          </div>
+        </div><!-- End testimonial item -->
+      
+
+  </div>
+  <div class="swiper-pagination"></div>
+</section><!-- End Testimonials Section -->
+
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 
 </body>
 
